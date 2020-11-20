@@ -1,1 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 500px;
+  background-image: url(https://i.pinimg.com/originals/56/ec/38/56ec38fb6b55339ef4d6007db2f6e76a.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* https://imperfectjelly1.files.wordpress.com/2016/09/lol-17.png */
