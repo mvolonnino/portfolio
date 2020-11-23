@@ -3,17 +3,16 @@ import React from "react";
 import "./Projects.css";
 import { projects } from "../../data";
 import Project from "../Project/Project";
-import Grid from "@material-ui/core/Grid";
 
 function Projects() {
   console.log({ projects });
   return (
     <div className="projects container" id="projects">
-      <div className="jumbotron bg-transparent">
+      <div className="jumbotron bg-transparent justify-content-center">
         <div className="text-center">
           <h1>My Recent Projects</h1>
           <p className="lead">
-            Here are some of my most recents works. Check out my{" "}
+            Here are some of my most recent desktop apps. Check out my{" "}
             <span>
               <a
                 href="http://github.com/mvolonnino"
@@ -27,11 +26,11 @@ function Projects() {
           </p>
         </div>
         <hr className="my-4" />
-        <Grid container wrap="wrap" spacing={3}>
-          {projects.map((project) => {
-            return <Project project={project} key={project.id} />;
-          })}
-        </Grid>
+      </div>
+      <div className="row justify-content-center">
+        {projects.map((project) => {
+          return <Project project={project} key={project.id} />;
+        })}
       </div>
     </div>
   );

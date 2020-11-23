@@ -7,7 +7,7 @@ import serverLogo from "../../img/server2.svg";
 function Skills() {
   return (
     <div className="skills container">
-      <div className="project_card bg-light text-center row">
+      <div className="skills_card bg-light text-center row">
         <div className="col-md card bg-light border-0">
           <div className="devices">
             <object data={devicesLogo} width="92" height="92"></object>

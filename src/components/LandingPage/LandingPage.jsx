@@ -3,11 +3,10 @@ import React, { useState, useEffect } from "react";
 import "./LandingPage.css";
 import myAvatar from "../../img/myAvatar.png";
 import Typewriter from "typewriter-effect";
-import AboutMe from "../AboutMe/AboutMe";
-import useOnScreen from "../../hooks/useOnScreen";
-import Navbar from "../Navbar/Navbar";
+import { isMobile } from "react-device-detect";
 
 function LandingPage() {
+  console.log({ isMobile });
   const [cardEl, setCardEl] = useState({});
 
   const _onMouseMove = (e) => {
@@ -52,11 +51,11 @@ function LandingPage() {
     <>
       <div
         className="container myContainer"
-        onMouseMove={_onMouseMove}
-        onMouseLeave={_onMouseLeave}
-        onMouseEnter={_onMouseEnter}
+        onMouseMove={!isMobile && _onMouseMove}
+        onMouseLeave={!isMobile && _onMouseLeave}
+        onMouseEnter={!isMobile && _onMouseEnter}
       >
-        <div className="myCard card bg-dark">
+        <div className="myCard card bg-transparent">
           <div className="avatar card-img-top">
             <div className="circle"></div>
             <img src={myAvatar} alt="My Avatar" />
@@ -68,9 +67,11 @@ function LandingPage() {
               <Typewriter
                 options={{
                   strings: [
+                    "Full Stack Developer",
+                    "Problem Solver",
                     "Software Engineer",
                     "Lifetime Learner",
-                    "Problem Solver",
+                    "Adventurer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -85,7 +86,7 @@ function LandingPage() {
               <a href="#projects">
                 <button>My Projects</button>
               </a>
-              <button className="resume">My Resume</button>
+              {/* <button className="resume">My Resume</button> */}
               <button className="contact">Contact Me</button>
             </div>
           </div>

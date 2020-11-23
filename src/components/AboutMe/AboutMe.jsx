@@ -1,13 +1,10 @@
 import React from "react";
 
 import "./AboutMe.css";
-import useOnScreen from "../../hooks/useOnScreen";
 
 function AboutMe() {
-  const [ref, showHeader] = useOnScreen({ threshold: 0.85, div: "AboutMe" });
-
   return (
-    <div className="about_me" id="about" ref={ref}>
+    <div className="about_me" id="about">
       <div className="col-md-8 text-center">
         <h1 className="about_title">Hi, I'm Matt. Nice to meet you.</h1>
         <h2 className="about_subtitle">

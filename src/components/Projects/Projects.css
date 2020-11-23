@@ -5,3 +5,7 @@
 .lead a {
   color: #7510f7;
 }
+
+.jumbotron {
+  padding-top: 4rem !important;
+}

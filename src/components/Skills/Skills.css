@@ -1,19 +1,12 @@
-.project_card {
+.skills_card {
   display: flex;
   border-radius: 20px !important;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-.row {
-  border: 1px solid #7410f74d !important;
-}
-
 .skills {
-  /* display: flex; */
   justify-content: center;
   margin-top: -6rem;
-  /* display: flex; */
-  /* flex-direction: row !important; */
   width: 95%;
   min-height: 55rem;
   border-radius: 20px;
@@ -21,7 +14,6 @@
 
 .line {
   border: 0.2px solid #7510f7;
-  margin-bottom: 10px;
   opacity: 0.2;
 }
 
@@ -35,15 +27,15 @@
   height: 4rem;
 }
 
-.project_card h5 {
+.skills_card h5 {
   color: #7510f7;
 }
 
-.project_card p {
+.skills_card p {
   color: gray;
 }
 
-.project_card {
+.skills_card {
   padding-top: 1rem !important;
 }
 

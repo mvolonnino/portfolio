@@ -1,12 +1,69 @@
 .icon {
-  object-fit: contain;
-  height: 64px;
+  transform: translateY(-75px);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.project_card > .card-img {
+  margin-bottom: -75px;
 }
 
 .linkTo a {
   margin: 0px 5px;
 }
 
-.desc {
-  margin-bottom: 0;
+.desc_project {
+  margin-bottom: 2rem;
+  height: 7rem;
+}
+
+.desc_tools {
+  margin-bottom: 5rem;
+  height: 0rem;
+}
+
+.card-img > .circle {
+  height: 11.6rem;
+  width: 11.6rem;
+  transform: translate(75px, -94px);
+  z-index: 0;
+  background: rgb(255, 255, 255);
+  box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.4);
+}
+.project_card {
+  background: linear-gradient(#7510f7, rgba(255, 255, 255)) !important;
+  width: 21rem;
+  height: 28rem;
+  margin: 5rem 1rem;
+  border: 1px solid rgb(230, 236, 248) !important;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding-top: 1rem;
+}
+
+.linkTo {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+}
+
+.linkTo button {
+  border: none;
+  border-radius: 20px;
+  border: 1px solid #7510f7;
+  padding: 0.5rem 0.75rem;
+  background: none;
+  transition: background-color 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+
+.linkTo button:hover {
+  color: white;
+  background-color: #a667f7;
+  border: 1px solid white;
+  transform: scale(1.08);
+}
+
+.linkTo button:focus {
+  outline: none;
 }

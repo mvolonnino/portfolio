@@ -1,33 +1,41 @@
 import React from "react";
 
 import "./Project.css";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 
 function Project({ project }) {
   console.log(project);
   return (
-    <Grid item xs={12}>
-      <div className="card">
-        <img
-          src={project.icon}
-          alt="project icon"
-          className="icon mr-3 card-img-top"
-        />
-        <div className="project_info card-body">
-          <h3 className="name card-title">{project.name}</h3>
-          <h6 className="desc">{project.description}</h6>
-          <div className="linkTo">
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              Visit Website
-            </a>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              GitHub
-            </a>
+    <>
+      <div className="col-xs-6">
+        <div className="card project_card">
+          <div className="card-img text-center">
+            <div className="circle"></div>
+            <img src={project.icon} alt="project icon" className="icon" />
+          </div>
+          <div className="project_info card-body text-center">
+            <h3 className="name card-title text-white">{project.name}</h3>
+            <p className="desc_project card-text text-black-50">
+              {project.description[0]}
+            </p>
+            <p className="desc_tools card-text text-black-50">
+              {project.description[1]}
+            </p>
+            <div className="linkTo card-text">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <button>Visit Website</button>
+              </a>
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button>GitHub</button>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </Grid>
+    </>
   );
 }
 
