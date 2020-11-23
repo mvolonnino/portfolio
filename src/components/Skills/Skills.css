@@ -1,0 +1,86 @@
+.project_card {
+  display: flex;
+  border-radius: 20px !important;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  border: 1px solid #7410f74d !important;
+}
+
+.skills {
+  /* display: flex; */
+  justify-content: center;
+  margin-top: -6rem;
+  /* display: flex; */
+  /* flex-direction: row !important; */
+  width: 95%;
+  min-height: 55rem;
+  border-radius: 20px;
+}
+
+.line {
+  border: 0.2px solid #7510f7;
+  margin-bottom: 10px;
+  opacity: 0.2;
+}
+
+.card {
+  border-radius: 20px !important;
+  padding-bottom: 1rem !important;
+}
+
+.desc {
+  padding: 5px 3px;
+  height: 4rem;
+}
+
+.project_card h5 {
+  color: #7510f7;
+}
+
+.project_card p {
+  color: gray;
+}
+
+.project_card {
+  padding-top: 1rem !important;
+}
+
+.languages {
+  margin: 1rem;
+}
+
+.border-right {
+  height: 39rem !important ;
+}
+
+@media (max-width: 525px) {
+  .languages {
+    margin-top: 3.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .container {
+    max-width: 90% !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .desc {
+    padding: 5px 3px;
+    height: 3rem !important;
+  }
+
+  .line {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .desc {
+    padding: 5px 3px;
+    height: 6rem;
+  }
+}

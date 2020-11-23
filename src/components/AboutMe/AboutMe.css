@@ -1,0 +1,11 @@
+.about_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7510f7;
+  height: 40rem;
+}
+
+.about_title {
+  color: white;
+}

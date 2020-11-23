@@ -3,12 +3,12 @@ import React, { useState, useEffect } from "react";
 import "./LandingPage.css";
 import myAvatar from "../../img/myAvatar.png";
 import Typewriter from "typewriter-effect";
+import AboutMe from "../AboutMe/AboutMe";
+import useOnScreen from "../../hooks/useOnScreen";
+import Navbar from "../Navbar/Navbar";
 
 function LandingPage() {
   const [cardEl, setCardEl] = useState({});
-  if (Object.entries(cardEl).length > 0) {
-    console.log(cardEl);
-  }
 
   const _onMouseMove = (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
@@ -49,44 +49,49 @@ function LandingPage() {
   }, []);
 
   return (
-    <div
-      className="container"
-      onMouseMove={_onMouseMove}
-      onMouseLeave={_onMouseLeave}
-      onMouseEnter={_onMouseEnter}
-    >
-      <div className="card">
-        <div className="avatar">
-          <div className="circle"></div>
-          <img src={myAvatar} alt="My Avatar" />
-        </div>
-        <hr />
-        <div className="info">
-          <h3 className="greeting">Hi, I am </h3>
-          <h1 className="title">Matt Volonnino</h1>
-          <h3 className="description">
-            <Typewriter
-              options={{
-                strings: [
-                  "Software Engineer",
-                  "Lifetime Learner",
-                  "Problem Solver",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 50,
-              }}
-            />
-          </h3>
-        </div>
-        <div className="links">
-          <button className="about">About Me</button>
-          <button className="projects">My Project</button>
-          <button className="resume">My Resume</button>
-          <button className="contact">Contact Me</button>
+    <>
+      <div
+        className="container myContainer"
+        onMouseMove={_onMouseMove}
+        onMouseLeave={_onMouseLeave}
+        onMouseEnter={_onMouseEnter}
+      >
+        <div className="myCard card bg-dark">
+          <div className="avatar card-img-top">
+            <div className="circle"></div>
+            <img src={myAvatar} alt="My Avatar" />
+          </div>
+          <div className="info card-body text-center">
+            <h3 className="greeting card-text">Hi, I am </h3>
+            <h1 className="title card-title">Matt Volonnino</h1>
+            <h3 className="description card-text">
+              <Typewriter
+                options={{
+                  strings: [
+                    "Software Engineer",
+                    "Lifetime Learner",
+                    "Problem Solver",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                  delay: 50,
+                }}
+              />
+            </h3>
+            <div className="links card-text">
+              <a href="#about">
+                <button>About Me</button>
+              </a>
+              <a href="#projects">
+                <button>My Projects</button>
+              </a>
+              <button className="resume">My Resume</button>
+              <button className="contact">Contact Me</button>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

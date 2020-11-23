@@ -1,0 +1,12 @@
+.icon {
+  object-fit: contain;
+  height: 64px;
+}
+
+.linkTo a {
+  margin: 0px 5px;
+}
+
+.desc {
+  margin-bottom: 0;
+}
