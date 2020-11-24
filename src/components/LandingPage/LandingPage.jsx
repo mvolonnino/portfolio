@@ -81,7 +81,7 @@ function LandingPage() {
             </h3>
             <div className="links card-text">
               <a href="#about">
-                <button>About Me</button>
+                <button>About</button>
               </a>
               <a href="#projects">
                 <button>Projects</button>
@@ -89,7 +89,7 @@ function LandingPage() {
               <a href="#resume">
                 <button className="resume_button">Resume</button>
               </a>
-              <button className="contact">Contact Me</button>
+              <button className="contact">Contact</button>
             </div>
           </div>
         </div>
