@@ -4,11 +4,37 @@
   justify-content: center;
   background-color: #7510f7;
   height: 50rem;
-
-  flex-direction: column;
 }
 
-.resume::before {
-  content: "";
-  height: 10rem;
+.resume_img {
+  object-fit: contain;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.resume_card {
+  transform: translateY(-6rem);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.pdf_btn {
+  margin-top: 1rem;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 0.75rem;
+  background: none;
+  transition: background-color 200ms ease-in-out;
+  transition: transform 200ms ease-in-out;
+}
+
+.pdf_btn:hover {
+  background-color: white;
+  color: #7510f7;
+  transform: scale(1.1);
+}
+
+.pdf_btn:focus {
+  outline: none;
 }

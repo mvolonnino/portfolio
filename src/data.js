@@ -22,7 +22,7 @@ export const projects = [
     github: "https://github.com/egibbs834/Superhero-Throwdown-React",
     description: [
       "Full Stack app utilizing SuperHero API to have access to comic book characters that you can store in your own database to create your own 'universe' to fight the evils of the multiverse.",
-      "Tools used: MERN stack. Mongodb, Express, React, and Node.js, MDBReact, Passport Auth",
+      "Tools used: MERN stack, MDBReact, Passport Auth",
     ],
     icon: comicbook,
   },
