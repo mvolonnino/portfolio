@@ -5,7 +5,7 @@ import SocialMediaButtons from "../SocialMediaBtns/SocialMediaButtons";
 
 function ContactMe() {
   return (
-    <div className="contact_me container">
+    <div className="contact_me container" id="contact">
       <div className="jumbotron bg-transparent text-center">
         <h1 className="">Let's Talk.</h1>
         <p className="lead">

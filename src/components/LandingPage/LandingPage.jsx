@@ -89,7 +89,9 @@ function LandingPage() {
               <a href="#resume">
                 <button className="resume_button">Resume</button>
               </a>
-              <button className="contact">Contact</button>
+              <a href="#contact">
+                <button className="contact">Contact</button>
+              </a>
             </div>
           </div>
         </div>
