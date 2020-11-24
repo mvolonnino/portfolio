@@ -13,9 +13,9 @@ function SocialMediaButtons() {
       <div className="card social_card text-center">
         <object
           data={linkedin}
-          type=""
           height="190px"
           className="card-img-top pt-5"
+          aria-labelledby="linkedin"
         ></object>
         <div className="card-body">
           <h5 className="card-title">
@@ -24,6 +24,7 @@ function SocialMediaButtons() {
           <a
             href="https://www.linkedin.com/in/matthew-volonnino-30076a1b1/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <button className="social_btn linkedin_btn">LinkedIn</button>
           </a>
@@ -45,13 +46,17 @@ function SocialMediaButtons() {
       <div className="card social_card text-center">
         <div className="card-body">
           <h5 className="card-title">Follow, Star, and Checkout my GitHub.</h5>
-          <a href="https://github.com/mvolonnino" target="_blank">
+          <a
+            href="https://github.com/mvolonnino"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="social_btn">GitHub</button>
           </a>
           <img
             className="card-img-bottom github_img"
             src={github}
-            alt="Card image cap"
+            alt="Github"
           />
         </div>
       </div>
@@ -61,7 +66,7 @@ function SocialMediaButtons() {
             data={socialmedia}
             height="200px"
             width="100%"
-            type=""
+            aria-labelledby="social media content"
           ></object>
           <footer className="blockquote-footer text-white">
             <small>Lets Connect</small>
@@ -86,7 +91,11 @@ function SocialMediaButtons() {
           alt="facebook like"
         />
         <h5>Friend me on Facebook</h5>
-        <a href="https://www.facebook.com/matt.volonnino" target="_blank">
+        <a
+          href="https://www.facebook.com/matt.volonnino"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="social_btn facebook_btn">Facebook</button>
         </a>
       </div>
@@ -105,7 +114,11 @@ function SocialMediaButtons() {
         <div className="card-body">
           <h5 className="card-title">Tweet Me!</h5>
           <img src={twitter} alt="twitter" className="card-img twitter_img" />
-          <a href="https://twitter.com/MatthewVolonni1" target="_blank">
+          <a
+            href="https://twitter.com/MatthewVolonni1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="social_btn twitter_btn">Twitter</button>
           </a>
         </div>
