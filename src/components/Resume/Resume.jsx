@@ -21,7 +21,7 @@ function Resume() {
           </a>
         </div>
       </div>
-      <div className="container">
+      <div className="resume_container container">
         <div className="row">
           <div className="col-md">
             <div className="card resume_card">

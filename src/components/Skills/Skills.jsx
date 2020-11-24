@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./Skills.css";
-import devicesLogo from "../../img/devices3.svg";
-import serverLogo from "../../img/server2.svg";
+import devicesLogo from "../../img/devices4.svg";
+import serverLogo from "../../img/server3.svg";
 
 function Skills() {
   return (

@@ -1,9 +1,9 @@
 .lead a:hover {
-  color: #a667f7;
+  color: var(--secondary-color) !important;
 }
 
 .lead a {
-  color: #7510f7;
+  color: var(--primary-color) !important;
 }
 
 .jumbotron {

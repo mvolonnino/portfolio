@@ -13,7 +13,7 @@
 }
 
 .line {
-  border: 0.2px solid #7510f7;
+  border: 0.2px solid var(--primary-color) !important;
   opacity: 0.2;
   margin-bottom: 10px;
 }
@@ -29,7 +29,7 @@
 }
 
 .skills_card h5 {
-  color: #7510f7;
+  color: var(--primary-color) !important;
 }
 
 .skills_card p {

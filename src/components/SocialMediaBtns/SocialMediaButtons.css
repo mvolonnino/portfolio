@@ -1,0 +1,65 @@
+.center_bg {
+  background-color: var(--primary-color) !important;
+}
+
+.social_btn {
+  border: 1px solid var(--primary-color);
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem 1.5rem;
+  color: var(--primary-color);
+  transition: transform 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.social_btn:hover {
+  color: white;
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+.social_btn:focus {
+  outline: none;
+}
+
+.twitter_btn {
+  border: 1px solid #1ca1f2;
+  color: #1ca1f2;
+}
+
+.twitter_btn:hover {
+  background-color: #1ca1f2;
+}
+
+.linkedin_btn {
+  border: 1px solid #4a86c5;
+  color: #4a86c5;
+}
+
+.linkedin_btn:hover {
+  background-color: #4a86c5;
+}
+
+.facebook_btn {
+  border: 1px solid #7689b5;
+  color: #7689b5;
+}
+
+.facebook_btn:hover {
+  background-color: #7689b5;
+}
+
+.facebook_img {
+  object-fit: contain;
+  height: 175px;
+}
+
+.github_img {
+  object-fit: contain;
+  height: 190px;
+}
+
+.twitter_img {
+  object-fit: contain;
+  height: 150px;
+}

@@ -28,7 +28,7 @@
 }
 
 .arrow_icon > .MuiSvgIcon-root {
-  color: #7510f7;
+  color: var(--primary-color) !important;
   background: white;
   border-radius: 50%;
   height: 2.5rem;
@@ -38,7 +38,7 @@
 
 .arrow_icon > .MuiSvgIcon-root:hover {
   color: white;
-  background: #a667f7;
+  background: var(--secondary-color) !important;
   border: 1px solid white;
   transform: scale(1.2);
 }
@@ -56,7 +56,10 @@
   box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.4);
 }
 .project_card {
-  background: linear-gradient(#7510f7, rgba(255, 255, 255)) !important;
+  background: linear-gradient(
+    var(--primary-color),
+    rgba(255, 255, 255)
+  ) !important;
   width: 21rem;
   height: 28rem;
   margin: 5rem 1rem;
@@ -75,7 +78,7 @@
 .github {
   border: none;
   border-radius: 20px;
-  border: 1px solid #7510f7;
+  border: 1px solid var(--primary-color) !important;
   padding: 0.5rem 0.75rem;
   background: none;
   transition: background-color 200ms ease-in-out;
@@ -84,7 +87,7 @@
 
 .github:hover {
   color: white;
-  background-color: #a667f7;
+  background-color: var(--secondary-color) !important;
   border: 1px solid white;
   transform: scale(1.08);
 }

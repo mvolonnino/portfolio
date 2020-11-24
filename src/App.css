@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  --primary-color: #7510f7;
+  --secondary-color: #a667f7;
   /* font-family: "Poppins", sans-serif; */
   min-height: 100vh;
   max-width: 100vw;
