@@ -28,7 +28,7 @@ a:hover {
 .myCard {
   position: relative !important;
   transform-style: preserve-3d !important;
-  box-shadow: 0 20px 20px #7510f7, 0px 0px 50px #7410f7c1 !important;
+  box-shadow: 0 10px 20px #7510f7, 0px 0px 50px #7410f7c1 !important;
   height: 45rem !important;
   border-radius: 30px !important;
 }
