@@ -1,14 +1,16 @@
 .icon {
-  transform: translateY(-75px);
-  height: 150px;
-  width: 150px;
+  transform: translateY(-135px);
+  height: 200px;
+  width: auto;
   border-radius: 50%;
 }
 
 .project_card > .card-img {
-  margin-bottom: -75px;
+  margin-bottom: -150px;
 }
-
+.name {
+  font-size: 24px;
+}
 .linkTo a {
   margin: 0px 5px;
 }
@@ -18,6 +20,28 @@
   height: 7rem;
 }
 
+.project_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.arrow_icon > .MuiSvgIcon-root {
+  color: #7510f7;
+  background: white;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  transition: transform 200ms ease-in-out;
+}
+
+.arrow_icon > .MuiSvgIcon-root:hover {
+  color: white;
+  background: #a667f7;
+  border: 1px solid white;
+  transform: scale(1.2);
+}
 .desc_tools {
   margin-bottom: 5rem;
   height: 0rem;
@@ -27,7 +51,7 @@
   height: 11.6rem;
   width: 11.6rem;
   transform: translate(75px, -94px);
-  z-index: 0;
+  z-index: -1;
   background: rgb(255, 255, 255);
   box-shadow: 0.5rem 0.5rem 3rem 1px rgba(0, 0, 0, 0.4);
 }
@@ -43,11 +67,12 @@
 
 .linkTo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0rem 2rem;
+  align-items: center;
 }
 
-.linkTo button {
+.github {
   border: none;
   border-radius: 20px;
   border: 1px solid #7510f7;
@@ -57,13 +82,22 @@
   transition: transform 200ms ease-in-out;
 }
 
-.linkTo button:hover {
+.github:hover {
   color: white;
   background-color: #a667f7;
   border: 1px solid white;
   transform: scale(1.08);
 }
 
-.linkTo button:focus {
+.linkTo .github:hover {
+  color: white;
+}
+
+.github:focus {
   outline: none;
+}
+
+.github > .MuiSvgIcon-root {
+  height: 2rem;
+  width: 2rem;
 }

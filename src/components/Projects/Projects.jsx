@@ -25,7 +25,7 @@ function Projects() {
             to see more.
           </p>
         </div>
-        <hr className="my-4" />
+        <hr className="line" />
       </div>
       <div className="row justify-content-center">
         {projects.map((project) => {
