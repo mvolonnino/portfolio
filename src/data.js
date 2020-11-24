@@ -22,7 +22,7 @@ export const projects = [
     github: "https://github.com/egibbs834/Superhero-Throwdown-React",
     description: [
       "Full Stack app utilizing SuperHero API to have access to comic book characters that you can store in your own database to create your own 'universe' to fight the evils of the multiverse.",
-      "Tools used: MERN stack, MDBReact, Passport Auth",
+      "Tools used: MERN stack, Context API, MDBReact, Passport Auth",
     ],
     icon: comicbook,
   },
@@ -44,7 +44,7 @@ export const projects = [
     github: "https://github.com/mvolonnino/meMessenger",
     description: [
       "Messenging app of the popular iMessage for desktop. It is a fun way to get people together and talking to anyone they would like.",
-      "Tools used: React, HTML5, CSS, Firebase, Material UI, Google Auth",
+      "Tools used: React, Redux, HTML5, CSS, Firebase, Material UI, Timeago.js, Google Auth",
     ],
     icon:
       "https://upload.wikimedia.org/wikipedia/commons/5/56/IMessage_logo_%28Apple_Inc.%29.png",
