@@ -37,8 +37,8 @@
 }
 
 .arrow_icon > .MuiSvgIcon-root:hover {
-  color: white;
-  background: var(--secondary-color) !important;
+  color: white !important;
+  background: var(--primary-color) !important;
   border: 1px solid white;
   transform: scale(1.2);
 }

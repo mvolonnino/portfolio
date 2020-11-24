@@ -2,19 +2,22 @@
   background-color: var(--primary-color) !important;
 }
 
+.social_card {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
 .social_btn {
   border: 1px solid var(--primary-color);
   background-color: white;
   border-radius: 20px;
   padding: 1rem 1.5rem;
   color: var(--primary-color);
-  transition: transform 200ms ease-in-out, color 200ms ease-in-out;
 }
 
 .social_btn:hover {
   color: white;
   background-color: var(--primary-color);
-  transform: scale(1.1);
+  transform: scale(1.05);
   border: 1px solid white;
 }
 

@@ -10,7 +10,7 @@ import twitter from "../../img/twitter-logo.png";
 function SocialMediaButtons() {
   return (
     <div className="card-columns">
-      <div className="card text-center">
+      <div className="card social_card text-center">
         <object
           data={linkedin}
           type=""
@@ -29,7 +29,7 @@ function SocialMediaButtons() {
           </a>
         </div>
       </div>
-      <div className="card p-3">
+      <div className="card social_card p-3">
         <blockquote className="blockquote mb-0 card-body">
           <p>
             “I’ve missed more than 9,000 shots in my career. I’ve lost almost
@@ -42,7 +42,7 @@ function SocialMediaButtons() {
           </footer>
         </blockquote>
       </div>
-      <div className="card text-center">
+      <div className="card social_card text-center">
         <div className="card-body">
           <h5 className="card-title">Follow, Star, and Checkout my GitHub.</h5>
           <a href="https://github.com/mvolonnino" target="_blank">
@@ -55,7 +55,7 @@ function SocialMediaButtons() {
           />
         </div>
       </div>
-      <div className="card center_bg text-white text-center p-3">
+      <div className="card social_card center_bg text-white text-center p-3">
         <blockquote className="blockquote mb-0">
           <object
             data={socialmedia}
@@ -68,7 +68,7 @@ function SocialMediaButtons() {
           </footer>
         </blockquote>
       </div>
-      <div className="card text-center">
+      <div className="card social_card text-center">
         <div className="card-body">
           <p className="card-text">
             “The secret of getting ahead is getting started.”
@@ -79,7 +79,7 @@ function SocialMediaButtons() {
           </footer>
         </div>
       </div>
-      <div className="card text-center">
+      <div className="card social_card text-center">
         <img
           className="card-img facebook_img"
           src={facebookLike}
@@ -90,7 +90,7 @@ function SocialMediaButtons() {
           <button className="social_btn facebook_btn">Facebook</button>
         </a>
       </div>
-      <div className="card p-3 text-right">
+      <div className="card social_card p-3 text-right">
         <blockquote className="blockquote mb-0">
           <p>
             “If people are doubting how far you can go, go so far that you can’t
@@ -101,16 +101,13 @@ function SocialMediaButtons() {
           </footer>
         </blockquote>
       </div>
-      <div className="card text-center">
+      <div className="card social_card text-center">
         <div className="card-body">
           <h5 className="card-title">Tweet Me!</h5>
           <img src={twitter} alt="twitter" className="card-img twitter_img" />
           <a href="https://twitter.com/MatthewVolonni1" target="_blank">
             <button className="social_btn twitter_btn">Twitter</button>
           </a>
-          <p className="card-text">
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </p>
         </div>
       </div>
     </div>
