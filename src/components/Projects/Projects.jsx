@@ -17,7 +17,7 @@ function Projects() {
               <a
                 href="http://github.com/mvolonnino"
                 target="_blank"
-                rel="noreffer noopener"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>

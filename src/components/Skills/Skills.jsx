@@ -10,7 +10,12 @@ function Skills() {
       <div className="skills_card bg-light text-center row">
         <div className="col-md card bg-light border-0">
           <div className="devices">
-            <object data={devicesLogo} width="92" height="92"></object>
+            <object
+              data={devicesLogo}
+              width="92"
+              height="92"
+              aria-label="front-end device"
+            ></object>
           </div>
           <h2 className="">Front-End</h2>
           <p className="desc lead">
@@ -35,7 +40,12 @@ function Skills() {
         <div className="line"></div>
         <div className="col-md card bg-light border-0">
           <div className="devices">
-            <object data={serverLogo} width="92" height="92"></object>
+            <object
+              data={serverLogo}
+              width="92"
+              height="92"
+              aria-label="back-end device"
+            ></object>
           </div>
           <h2 className="">Back-End</h2>
           <p className="desc lead">

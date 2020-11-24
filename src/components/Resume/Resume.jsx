@@ -16,7 +16,7 @@ function Resume() {
             After completing the Rutgers Coding Bootcamp, I now have 4 months of
             real world experience plus the extra projects I have done as well.
           </h2>
-          <a href={pdf} target="_blank">
+          <a href={pdf} target="_blank" rel="noopener noreferrer">
             <button className="pdf_btn">Link to PDF</button>
           </a>
         </div>
