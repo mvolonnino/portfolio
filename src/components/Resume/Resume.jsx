@@ -17,7 +17,7 @@ function Resume() {
             real world experience plus the extra projects I have done as well.
           </h2>
           <a href={pdf} target="_blank" rel="noopener noreferrer">
-            <button className="pdf_btn">Link to PDF</button>
+            <button className="pdf_btn">Resume PDF</button>
           </a>
         </div>
       </div>

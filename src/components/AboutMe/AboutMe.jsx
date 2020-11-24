@@ -11,7 +11,7 @@ function AboutMe() {
           I am a certified Full Stack Web Developer that loves creating
           beautiful websites and fun projects. I have created apps that range
           from social media designs to messenging platforms to building entire
-          universes from different comic book characters.
+          universes from different comic book characters!
         </h2>
       </div>
     </div>
