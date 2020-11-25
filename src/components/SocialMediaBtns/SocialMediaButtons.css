@@ -11,7 +11,7 @@
 }
 
 .social_btn {
-  border: 1px solid var(--primary-color);
+  border: 2px solid var(--primary-color);
   background-color: white;
   border-radius: 20px;
   padding: 1rem 1.5rem;
@@ -22,7 +22,7 @@
   color: white;
   background-color: var(--primary-color);
   transform: scale(1.05);
-  border: 1px solid white;
+  border: 2px solid white;
 }
 
 .social_btn:focus {
@@ -30,7 +30,7 @@
 }
 
 .twitter_btn {
-  border: 1px solid #1ca1f2;
+  border: 2px solid #1ca1f2;
   color: #1ca1f2;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .linkedin_btn {
-  border: 1px solid #4a86c5;
+  border: 2px solid #4a86c5;
   color: #4a86c5;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .facebook_btn {
-  border: 1px solid #7689b5;
+  border: 2px solid #7689b5;
   color: #7689b5;
 }
 
