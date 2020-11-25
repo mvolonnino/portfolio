@@ -30,7 +30,7 @@
 .mailto:hover {
   transform: scale(1.1);
   border: 2px solid white;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
 }
 
 .mailto:focus {
@@ -42,7 +42,7 @@
 }
 
 .logo > button {
-  border: 1px solid white;
+  border: 2px solid white;
   background: none;
   color: white;
   padding: 1.2rem 1rem;
@@ -50,7 +50,7 @@
 }
 
 .btn_link {
-  border: 1px solid white;
+  border: 2px solid white;
   background: none;
   color: white;
   padding: 1rem 1.5rem;

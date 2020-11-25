@@ -43,7 +43,7 @@ function Form() {
       </div>
       <div className="row">
         <div className="col">
-          <p className="text-center text-white mt-5 quote">
+          <p className="text-center text-white mt-4 quote">
             <em>
               "I have not failed. I've just found 10,000 ways that won't work."
               --Thomas A. Edison
@@ -51,7 +51,7 @@ function Form() {
           </p>
         </div>
       </div>
-      <div className="row mt-5">
+      <div className="row mt-4">
         <div className="col text-center">
           <a href="#about">
             <button className="btn_link">About</button>
