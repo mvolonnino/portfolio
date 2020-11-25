@@ -78,7 +78,7 @@
 .github {
   border: none;
   border-radius: 20px;
-  border: 2px solid var(--primary-color) !important;
+  /* border: 2px solid white !important; */
   padding: 0.5rem 0.75rem;
   background: none;
   transition: background-color 200ms ease-in-out;
