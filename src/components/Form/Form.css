@@ -42,11 +42,22 @@
 }
 
 .logo > button {
-  border: 2px solid white;
   background: none;
   color: white;
-  padding: 1.2rem 1rem;
   border-radius: 50%;
+}
+
+.logo > button:focus {
+  outline: none;
+}
+
+/* button:not(:disabled) {
+  cursor: pointer;
+} */
+
+.mvLogo {
+  object-fit: contain;
+  height: 100px;
 }
 
 .btn_link {

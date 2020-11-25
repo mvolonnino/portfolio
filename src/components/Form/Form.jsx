@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./Form.css";
+import mvLogo from "../../img/mv.png";
 
 function Form() {
   return (
@@ -29,7 +30,9 @@ function Form() {
         <div className="col text-center">
           <div className="logo text-center">
             <button>
-              <h3 className="m-0">MV</h3>
+              {/* <h3 className="m-0">MV</h3>
+               */}
+              <img src={mvLogo} alt="" className="mvLogo" />
             </button>
           </div>
         </div>
