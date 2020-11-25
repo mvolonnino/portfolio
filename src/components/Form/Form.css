@@ -1,0 +1,77 @@
+.contact_form {
+  transform: translateY(15rem);
+  height: 50rem;
+  background-color: var(--primary-color);
+}
+
+.contact_form > .container > .card {
+  transform: translateY(-6rem);
+  height: 15rem !important;
+  background-color: darkslateblue;
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.mailto {
+  border: 2px solid var(--secondary-color);
+  padding: 0.5rem 2rem;
+  border-radius: 20px;
+  background: none;
+  color: white;
+  transition: transform 200ms ease-in-out;
+}
+
+.quote {
+  font-size: 12px;
+}
+
+.mailto:hover {
+  transform: scale(1.1);
+  border: 2px solid white;
+  background-color: var(--secondary-color);
+}
+
+.mailto:focus {
+  outline: none;
+}
+
+.logo_row {
+  margin-top: 4rem !important;
+}
+
+.logo > button {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  padding: 1.2rem 1rem;
+  border-radius: 50%;
+}
+
+.btn_link {
+  border: 1px solid white;
+  background: none;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin: 0.5rem;
+  border-radius: 20px;
+  transition: transform 200ms ease-in-out;
+  width: 8rem;
+}
+
+.btn_link:hover {
+  background: white;
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.btn_link:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .col-sm-4 {
+    min-width: 100% !important;
+  }
+}

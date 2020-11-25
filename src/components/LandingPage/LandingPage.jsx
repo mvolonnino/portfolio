@@ -50,6 +50,7 @@ function LandingPage() {
   return (
     <>
       <div
+        id="landing"
         className="container myContainer"
         onMouseMove={!isMobile && _onMouseMove}
         onMouseLeave={!isMobile && _onMouseLeave}
