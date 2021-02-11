@@ -1,8 +1,8 @@
 import React from "react";
 
 import "./Resume.css";
-import resume from "../../img/mv_resume-1.png";
-import pdf from "../../img/mv-resume.pdf";
+import resume from "../../img/mv_resume_new.png";
+import pdf from "../../img/mv_resume_new.pdf";
 
 function Resume() {
   return (
@@ -13,8 +13,10 @@ function Resume() {
             I'm available for full time or contract work.
           </h1>
           <h2 className="about_subtitle">
-            After completing the Rutgers Coding Bootcamp, I now have 4 months of
-            real world experience plus the extra projects I have done as well.
+            After completing the Rutgers Coding Bootcamp and receiving my MERN
+            stack certification, I have been working on multiple different
+            projects giving me real world experience and the opportunity to
+            learn new techniques and technologies.
           </h2>
           <a href={pdf} target="_blank" rel="noopener noreferrer">
             <button className="pdf_btn">Resume PDF</button>
