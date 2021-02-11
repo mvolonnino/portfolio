@@ -17,14 +17,16 @@ function Project({ project }) {
           <div className="project_info card-body text-center">
             <div className="project_title">
               <h3 className="name text-white">{project.name}</h3>
-              <a
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="arrow_icon"
-              >
-                <ArrowForwardIcon />
-              </a>
+              {project.url === "work in progress" ? null : (
+                <a
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="arrow_icon"
+                >
+                  <ArrowForwardIcon />
+                </a>
+              )}
             </div>
             <p className="desc_project card-text text-black-50">
               {project.description[0]}

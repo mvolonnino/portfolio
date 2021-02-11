@@ -2,10 +2,22 @@ import logo from "./img/VolbeatsMusicLogo.png";
 import comicbook from "./img/marveldc.png";
 import avengersSymb from "./img/avengerssymb.png";
 import employeeDirec from "./img/employee_directory.png";
+import YAF from "./img/yourAverageFunko.png";
 
 export const projects = [
   {
     id: 0,
+    name: "Your Average Funko",
+    url: "work in progress",
+    github: "https://github.com/mvolonnino/yourAverageFunko",
+    description: [
+      "*Work In Progress* - Created web scrapper to create own Rest API of over 12k funko pops as there is no funko pop API readily available",
+      "Your Average Funko will be a website that will allow for saving, buying, and trading of funko pops between users",
+    ],
+    icon: YAF,
+  },
+  {
+    id: 1,
     name: "Volbeats Music",
     url: "https://volbeats-music.web.app/",
     github: "https://github.com/mvolonnino/VolbeatsMusic",
@@ -16,7 +28,7 @@ export const projects = [
     icon: logo,
   },
   {
-    id: 1,
+    id: 2,
     name: "SuperHero Throwdown",
     url: "https://superhero-throwdown.herokuapp.com/",
     github: "https://github.com/egibbs834/Superhero-Throwdown-React",
@@ -27,7 +39,7 @@ export const projects = [
     icon: comicbook,
   },
   {
-    id: 2,
+    id: 3,
     name: "Avengers Twitter",
     url: "https://twitter-clone-8d418.web.app/",
     github: "https://github.com/mvolonnino/twitter-clone",
@@ -38,7 +50,7 @@ export const projects = [
     icon: avengersSymb,
   },
   {
-    id: 3,
+    id: 4,
     name: "meMessenge!",
     url: "https://memessage-9f0a0.web.app/",
     github: "https://github.com/mvolonnino/meMessenger",
@@ -50,7 +62,7 @@ export const projects = [
       "https://upload.wikimedia.org/wikipedia/commons/5/56/IMessage_logo_%28Apple_Inc.%29.png",
   },
   {
-    id: 4,
+    id: 5,
     name: "Employee Directory",
     url: "https://mvolonnino.github.io/directory-app/",
     github: "https://github.com/mvolonnino/directory-app/tree/master",
