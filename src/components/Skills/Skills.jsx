@@ -26,7 +26,7 @@ function Skills() {
             <h5>Languages I speak:</h5>
             <p>HTML</p>
             <p>CSS</p>
-            <p>React</p>
+            <p>React & React Native</p>
             <p>JavaScript :)</p>
           </div>
           <h5 className="tools">Tools I use:</h5>

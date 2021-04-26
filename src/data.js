@@ -8,11 +8,11 @@ export const projects = [
   {
     id: 0,
     name: "Your Average Funko",
-    url: "work in progress",
+    url: "https://github.com/mvolonnino/yourAverageFunko",
     github: "https://github.com/mvolonnino/yourAverageFunko",
     description: [
-      "*Work In Progress* - Created web scrapper to create own Rest API of over 12k funko pops as there is no funko pop API readily available",
-      "Your Average Funko will be a website that will allow for saving, buying, and trading of funko pops between users",
+      "Application for adding funko pops to your account and messaging other users about their collections/want lists. - GitHub readme has working demos of how the application works",
+      "Tools used: React, Context API, CSS, Firebase, Node, Express, Puppeeter, JWT",
     ],
     icon: YAF,
   },

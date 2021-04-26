@@ -3,9 +3,21 @@
   align-items: center;
   justify-content: center;
   background-color: var(--primary-color) !important;
-  height: 50rem;
+  min-height: 50rem;
 }
 
 .about_title {
   color: white;
+}
+
+@media (max-width: 575px) {
+  .about_me {
+    height: 65rem;
+  }
+}
+
+@media (max-width: 335px) {
+  .about_me {
+    height: 80rem;
+  }
 }

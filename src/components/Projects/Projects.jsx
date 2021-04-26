@@ -21,7 +21,7 @@ function Projects() {
               GitHub
             </a>
           </span>{" "}
-          to see more.
+          to see more, along with some React Native projects.
         </p>
         <hr className="line" />
       </div>
